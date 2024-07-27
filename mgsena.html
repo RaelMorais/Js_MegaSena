@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="mgsena.js">
+</script>
+<style>
+
+body{
+
+  text-align: center;
+
+
+}
+  #icone{
+
+  color: black;
+  display: block;
+  text-align: center;
+
+  }
+ a:hover {
+  color: black;
+  display: block;
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+}
+#meu-elemento {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #37b411;
+    color: #000000;
+    padding: none;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+  }
+
+  #mgsena {
+  
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  
+
+  }
+
+  #button{
+  
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  .teste{
+
+
+    border-radius: 30px;
+
+  }
+
+
+th,td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    size: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+   
+}
+
+th {
+    background-color: #DAA520;
+    color: #FFF;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F8FF;
+
+}
+
+
+</style>
+    <title>Mega Sena</title>
+    <link rel="icon" href="mgsena2.png" type="image/png">
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+</script>
+
+<div id="meu-elemento">MEGA SENA</div>
+<br>
+<div id="mgsena">
+    <p>Quantidade de jogos: 
+    <input type="text" id="qnumj" value="4"></br></p> 
+    <p>Quantidade de números por jogo: 
+      <select type="text" id="njogo">
+      <option value= "6">06</option>
+      <option value= "7">07</option>
+      <option value= "8">08</option>
+      <option value= "9">09</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      </select>
+    </p>
+  </div>
+
+
+  <button onclick="GerarJogo()">Gerar</button>
+  <br><br>
+  <div class="tabela"> 
+  <table id="Jogo">
+
+</br></br> 
